@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_white">#ffffff</color>
+
+    <color name="divideColor">#3C3F41</color>
+
+    <color name="gray_12">#CCCCCC</color>
+    <color name="gray_11">#BBBBBB</color>
+    <color name="gray_10">#AAAAAA</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_8">#888888</color>
+    <color name="gray_7">#777777</color>
+    <color name="gray_6">#666666</color>
+    <color name="gray_5">#555555</color>
+
+    <color name="dark_blue_green">#3EBA87</color>
+    <color name="tape_bgColor">#F8F8F8</color>
+
+</resources>

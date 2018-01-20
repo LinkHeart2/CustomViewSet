@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TapeView">
+        <attr name="miniLine_color" format="color"/>
+        <attr name="bigLine_color" format="color"/>
+        <attr name="topLine_color" format="color"/>
+        <attr name="index_color" format="color"/>
+    </declare-styleable>
+</resources>

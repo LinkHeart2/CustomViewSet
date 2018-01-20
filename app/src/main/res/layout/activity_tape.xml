@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/color_white"
+    tools:context="com.hjx.android.customviewset.activity.TapeActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_index"
+            android:textColor="@color/dark_blue_green"
+            android:textSize="24sp"
+            android:text="0.0"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/dark_blue_green"
+            android:text="kg"
+            android:gravity="top"
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <com.hjx.android.customviewset.widget.TapeView
+        android:id="@+id/tapeView"
+        android:layout_width="match_parent"
+        app:bigLine_color="@color/gray_10"
+        app:miniLine_color="@color/gray_11"
+        app:topLine_color="@color/gray_11"
+        app:index_color="@color/dark_blue_green"
+        android:background="@color/tape_bgColor"
+        android:layout_height="80dp"/>
+</LinearLayout>

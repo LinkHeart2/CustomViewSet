@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CustomViewSet</string>
+    <string name="content">绘制解锁图案，请至少绘制4个点</string>
+    <string name="lining">完成后松开手指</string>
+    <string name="input_success">已记录图案</string>
+    <string name="input_again">再次绘制图案进行确认</string>
+    <string name="input_again_retry">请再试一次</string>
+    <string name="too_little">至少需连接4个点，请重试</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
